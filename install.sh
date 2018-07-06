@@ -27,5 +27,3 @@ cd nginx-1.14.0
             --add-module=$CUR/ngx_devel_kit \
             --add-module=$CUR/lua-nginx-module
 make && sudo make install
-
-sudo chmod 777 /usr/local/nginx/conf/nginx.conf
